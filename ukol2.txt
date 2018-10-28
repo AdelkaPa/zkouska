@@ -1,0 +1,13 @@
+def zacina(seznam, pismeno):
+    slovo = []
+    zacatek = []
+    for zvire in seznam:
+        zacatek = zvire[0]
+        if pis in zacatek:
+            zvire.append(slovo)
+    return(slovo)
+
+zvirata = ['pes', 'kočka', 'králík', 'had']
+pismen = ['k']
+zacina(zvirata, pismen)
+print(zacina)
